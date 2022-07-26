@@ -1,0 +1,182 @@
+ body {
+    --bs-body-font-family: var(--bs-font-monospace);
+    --bs-body-line-height: 1.4;
+    --bs-body-bg: var(--bs-gray-100);
+    background-image: url(aa.jpg);
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+    border-radius: 50px;
+    display: flexbox;
+    
+    
+   
+   
+    
+    color: rgb(175, 177, 173);
+    border-width: 10px;
+    border-style: solid;
+    padding: 3rem;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+      ) 50 100% !important;
+
+
+ 
+  }
+ 
+  .table {
+    --bs-table-color: var(--bs-gray-600);
+    --bs-table-bg: var(--bs-gray-100);
+    --bs-table-border-color: transparent;
+    
+  }
+
+  .component {
+    color: var(--bs-gray-800);
+    background-color: var(--bs-gray-100);
+    border: 1px solid var(--bs-gray-200);
+    border-radius: .25rem;
+  }
+  
+  .component-header {
+    color: var(--bs-purple);
+  }
+
+  #rodape{
+    margin-top: 10px;
+    background-color: #575656;
+  }
+
+
+ 
+  .custom-popover {
+    --bs-popover-max-width: 200px;
+    --bs-popover-border-color: var(--bs-primary);
+    --bs-popover-header-bg: var(--bs-primary);
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+  }
+
+
+  #banner{
+    padding: 3px;
+    
+  }
+
+
+#banner{
+    width: 100%;
+    padding: 3px;
+    opacity: 100%;
+    
+}
+.principal{
+    background: #636060;
+    margin: 5px;
+    margin-top: 1%;
+    opacity: 96%;
+
+    border-style: solid;
+    padding: 3rem;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+      ) 50 100%;
+      
+}
+
+h1{
+    background-color:  #a39e9e;
+    margin-right: 50px;
+    padding: 15px;
+
+   
+        color: rgb(175, 177, 173);
+        border-width: 10px;
+        border-style: solid;
+        padding: 3rem;
+        border-image: 
+          linear-gradient(
+            to bottom, 
+          ) 50 100%;
+          
+    
+    
+}
+
+.titulo-principal{
+    padding-left: 20px;
+
+}
+
+.lamina{
+    width: 40px;
+  
+}
+
+.titulo_centralizado {
+    text-align:center; background: transparent;
+    font-size: 30px;
+    color: #4d280b;
+    
+    
+  
+}
+
+p {
+    text-align:center;
+    color:#b9b2b2;
+    font-size: 20PX;
+}
+
+
+#missao {
+
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    
+    
+    
+}
+.itens {
+    font-style: italic;
+}
+
+em {
+
+    font-size:20px;
+} 
+
+em strong {
+    color: #740101;
+    font-size:25px;
+}
+
+.beneficios{
+    background: #666363;
+    margin: 5px;
+    margin-top: 1%;
+    padding: 20px;
+    opacity: 96%;
+   
+    
+}
+
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    margin: 10px;
+    color: rgb(184, 178, 178);
+   
+    
+}
+
+.imgbeneficios{
+    width: 50%;
+    opacity: 100%;
+}
