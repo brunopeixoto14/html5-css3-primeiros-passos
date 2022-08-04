@@ -1,0 +1,351 @@
+header {
+  display: block;
+  background-attachment: scroll;
+  background-size: 20%;
+  background-image: url("imagens/caveira.jpg");
+  background-attachment: fixed;
+  position: static 0;
+  box-shadow: 10px 5px 15px 5px black;
+  
+
+
+  padding: 100% 0;
+   
+}
+
+header h1 img {
+  width: 30%;
+}
+
+.titulo-principal, h3 {
+  position: static;
+  top: 100px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.514);
+  text-align: center;
+  border-radius: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  box-shadow: 10px 5px 5px black;
+
+}
+
+.titulo-principal::first-letter{
+font-weight: bold;
+
+}
+
+
+
+
+
+header h1 img:hover {
+  transform: rotate(10deg) scale(1.1);
+}
+
+.caixa {
+  position: static;
+  width: 90%;
+  margin: auto;
+}
+
+.caixa nav ul:hover {
+  transform: scale(1.2);
+}
+
+
+nav {
+  position: static;
+  top: 100px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.514);
+  text-align: center;
+  border-radius: 8px;
+  padding-right: 10px;
+  margin-left: 10px;
+  padding: 0px 0px 0px 0px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.logo1 {
+  background-color: #00000015;
+  border-radius: 3%;
+  padding: 0% 0% 0% 1%;
+  margin-right: 50%;
+}
+
+
+.banner{
+  width: 100%;
+}
+
+.principal {
+  padding: 3em 0;
+  background: #ffffff00;
+  opacity: 100%;
+  box-shadow: 10px 5px 15px 5px black;
+  width: 1500px;
+  margin: 0 auto;
+  padding: 0%;
+}
+
+.lamina {
+  width: 3%;
+}
+
+.titulo_centralizado {
+  text-align: justify;
+  background: transparent;
+  font-size: 35px;
+  color: #4d280b;
+  padding-left: 1em;
+}
+
+p {
+  text-align: center;
+  color: #8d8585;
+  font-size: 20px;
+}
+
+
+#missao , strong {
+  font-size: 30px !important;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.itens::before{
+  content:"🞽 " ;
+} 
+
+.itens {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1.5 ;
+}
+
+.itens:first-child { 
+  font-weight: bold;
+  /* pode se usar outros comandos para negrito fora o first-child como o nth-child(2) para a segunda linha
+    ou entao nth-child(2n) para grupos duplos ou last-child para o ultimo */
+} 
+
+em {
+  font-size: 20px;
+}
+
+em strong {
+  color: #740101;
+  font-size: 25px;
+}
+
+.beneficios {
+ 
+  margin-top: 1%;
+  padding: 3em 0;
+  opacity: 96%;
+  margin: 0 auto;
+
+  background: linear-gradient(rgb(238, 238, 238) 25%,rgb(136, 135, 135) ,darkgrey,grey ,black)!important ;
+}
+
+.imagem-beneficios{
+  width: 10%;
+}
+
+.conteudo-beneficios {
+  width: 100%;
+  margin: 10% 10%;
+}
+
+.conteudo-beneficios img {
+  width: 10%;
+  margin: 0 auto;
+  width:40%;
+  opacity: 0.6;
+  opacity: 1;
+  transition: 400ms;
+}
+
+.conteudo-beneficios img:hover {
+  opacity: 0.6;
+}
+
+
+.lista-beneficios {
+  width: 40%;
+  display: inline-block;
+  vertical-align:top ;
+}
+
+.barba {
+width: 100%;
+margin:-10xp;
+padding: -10px;
+}
+
+.video {
+  margin: 2em auto; 
+  width: 560px;
+}
+
+/* main > p{
+  background: #740101;
+} */
+
+/*  main > p pega o primeiro paragrafo depois do main
+  img + p pega a primeira selecao depois da imagem no caso o p
+  img ~ pega o todos os seletores depois de uma imagem 
+  .principal p:not(#missao) pega os paragrafos que não fzem parte da missão
+ */
+
+.imgbeneficios {
+  width: 100%;
+  opacity: 100%;
+}
+
+footer {
+  text-align: center;
+  background-attachment: scroll;
+  background-size: 9%;
+  background-image: url("imagens/caveira.jpg");
+  background-attachment: fixed;
+  position: static 0;
+  padding: 10px 0;
+  box-shadow: 10px 5px 15px 5px black;
+
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 10px;
+  background-color: rgba(0, 0, 0, 0.582);
+  margin-top: 2%;
+  text-align: center;
+  margin: 0.3% 10%;
+  border-radius: 1%;
+  box-shadow: 10px 5px 5px black;
+}
+
+
+nav {
+  position: static;
+  top: 100px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.514);
+  text-align: center;
+  border-radius: 8px;
+  padding-right: 10px;
+  margin-left: 10px;
+  padding: 0px 0px 0px 0px;
+}
+
+
+nav ul {
+  margin: 1px;
+  margin-right: 50px;
+
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 30px;
+  background-color: black;
+  margin-top: 10%;
+  text-align: center;
+  border-radius: 20%;
+}
+
+
+nav a {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #e0b700;
+  text-decoration: underline;
+}
+
+
+main section p{
+  font-size: 25px;
+  padding: 1em;
+  color: #574c4c;
+}
+
+body{
+  background: linear-gradient(#918e8e 95%,black 5%);
+ 
+ 
+}
+
+form {
+  margin: 40% 0;
+}
+
+form label,
+form p {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 2%;
+  padding: 1% 2%;
+  width: 50%;
+}
+
+.produtos {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.mapa{
+  padding: 3em 0;
+  
+  
+}
+
+.mapa p{
+  margin: 0 0 2em;
+  text-align: center;
+  
+}
+
+.mapa-conteudo{
+  width: 100%;
+  margin: 0 auto;
+ 
+}
+
+@media screen and (max-width: 480px){ 
+.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+  width: auto;
+  
+}
+.titulo_centralizado{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+nav{
+  position: static;
+}
+  .lista-beneficios, .imagem-beneficios{
+    width: 100%;
+  }
+}
+
